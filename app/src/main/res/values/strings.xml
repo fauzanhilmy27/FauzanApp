@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">myapps</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="homepage">Aplikasi Ini adalah aplikasi berisi profile, dailyActivty, profile dari pembuat aplikasi</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_daily">tekan tombol Menu di bawah, kemudian setelah masuk home page anda akan melihat Button navigation bar yang berisi home, Daily activty, dan profile. di menu home anda akan melihat profile dari si pembuat apk, kemudian di menu daily activty anda akan melihat teman-teman pembuat aplikasi, menu profile anda akan melihat profile pembuat aplikasi</string>
+    <string name="title_gallery">Profile</string>
+    <string name="title_daily_act">Daily Activty</string>
+    <string name="N">Nama :</string>
+    <string name="Nama">Fauzan Hilmy</string>
+    <string name="ttl">Tempat Tanggal Lahir :</string>
+    <string name="lahir">Bandung 27-01-2001</string>
+    <string name="H">Hobi :</string>
+    <string name="hobi">Mendengarkan musik, bermain game</string>
+    <string name="make">Makanan Kesukaan :</string>
+    <string name="makes">indomie</string>
+    <string name="mike">Minuman Kesukaan :</string>
+    <string name="mikes">Teh</string>
+    <string name="ints">Interest :</string>
+    <string name="minat">sukses di usia muda</string>
+    <string name="ct">cita-cita :</string>
+    <string name="cita">Pemdam Kebakaran</string>
+    <string name="email">email :</string>
+    <string name="kontak1">filifauzanhilmy@gmail.com</string>
+    <string name="gallery">gallery</string>
+</resources>

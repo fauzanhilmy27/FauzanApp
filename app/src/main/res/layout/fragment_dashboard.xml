@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <TextView
+        android:id="@+id/friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="My Friend List"
+        android:textSize="30dp" />
+
+    <RelativeLayout
+        android:id="@+id/tmt1"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_below="@+id/friend"
+        android:background="@color/white">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imageveiew"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="60dp">
+
+            <ImageView
+                android:id="@+id/imageview1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/teman1" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/teman1"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/imageveiew"
+            android:text="Mail"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+        <RelativeLayout
+    android:id="@+id/tmt2"
+            android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="95dp"
+    android:layout_below="@+id/tmt1"
+    android:background="@color/white">
+    <androidx.cardview.widget.CardView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageveiew1"
+        app:cardCornerRadius="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/imageview2"
+            android:src="@drawable/teman2"/>
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/teman2"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text="Iyus"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/imageveiew1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/tmt3"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_below="@+id/tmt2"
+        android:background="@color/white">
+        <androidx.cardview.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageveiew2"
+            app:cardCornerRadius="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/imageview3"
+                android:src="@drawable/teman3"/>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/teman3"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="Izul"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/imageveiew2"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>

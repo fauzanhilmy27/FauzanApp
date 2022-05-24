@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/poto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profile"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="140dp"/>
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poto"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/N" />
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/n"
+        android:layout_below="@+id/poto"
+        android:text="@string/Nama"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/ttl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/n"
+        android:text="@string/ttl"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/lahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ttl"
+        android:layout_below="@+id/nama"
+        android:text="@string/lahir"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ttl"
+        android:text="@string/H"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/hoby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/h"
+        android:layout_below="@+id/lahir"
+        android:text="@string/hobi"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/make"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/h"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/email" />
+
+    <TextView
+        android:id="@+id/makes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hoby"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/make"
+        android:autoLink="email"
+        android:minHeight="48dp"
+        android:text="@string/kontak1" />
+    <TextView
+        android:id="@+id/abot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/make"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="About App :" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/make"
+        android:layout_toRightOf="@id/abot"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="0.0.1" />
+
+</RelativeLayout>
